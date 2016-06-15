@@ -1,0 +1,33 @@
+body {
+	height: 100vh;
+    background: url("../images/back.jpg") no-repeat;
+    background-size: cover;
+    padding: 5% 20%;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+#reloj {
+	font-size: 60px;
+    text-align: center;
+}
+
+#fecha {
+	font-size: 20px;
+	text-align: center;
+}
+
+.btn-info {
+	background: rgb(221, 221, 211);
+	display: block;
+	margin: 2% auto;
+	border: none;
+}
+
+.btn-info:hover {
+	background: #BBB9AE;
+}
+
+.btn-info:active, .btn-info:focus, .btn-info:active:hover, .btn-info:active:focus {
+	background: #BBB9AE;
+}
